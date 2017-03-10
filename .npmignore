@@ -1,6 +1,8 @@
 src
 .babelrc
 .gitignore
+.npmignore
+Makefile
 npm-debug.log
 node-modules
 .git
