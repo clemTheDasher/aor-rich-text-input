@@ -1,6 +1,6 @@
 {
-  "name": "aor-rich-text-input",
-  "version": "1.0.0",
+  "name": "aor-rich-text-input-with-image-handler",
+  "version": "0.0.0",
   "description": "A local REST client for admin-on-rest",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "wysiwyg",
     "editor"
   ],
-  "author": "François Zaninotto",
+  "author": "François Zaninotto, ClemTheDasher",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marmelab/aor-rich-text-input/issues"
