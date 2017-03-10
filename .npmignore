@@ -3,5 +3,4 @@ src/
 .gitignore
 npm-debug.log
 node-modules/
-Makefile
 .git/
