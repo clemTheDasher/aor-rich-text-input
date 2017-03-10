@@ -1,6 +1,6 @@
-src/
+src
 .babelrc
 .gitignore
 npm-debug.log
-node-modules/
-.git/
+node-modules
+.git
