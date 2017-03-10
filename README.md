@@ -1,4 +1,4 @@
-# `<RichTextInput>` for admin-on-rest (with image handler)
+# `<RichTextInput>` for admin-on-rest (with image handler123)
 
 For editing HTML with [admin-on-rest](https://github.com/marmelab/admin-on-rest), use the `<RichTextInput>` component. It embarks [quill](http://quilljs.com/), a popular cross-platform Rich Text Editor.
 
