@@ -1,7 +1,7 @@
 # `<RichTextInput>` for admin-on-rest (with image handler)
 
 For editing HTML with [admin-on-rest](https://github.com/marmelab/admin-on-rest), use the `<RichTextInput>` component. It embarks [quill](http://quilljs.com/), a popular cross-platform Rich Text Editor.
-**This version can use a upload API to upload image to remote storage, and then get a remote url instead of base64 data url**
+**In this fork, you can use a server side API to upload image, and then get a remote url instead of base64 data url.**
 
 ![`<RichTextInput>` example](http://marmelab.com/admin-on-rest/img/rich-text-input.png)
 
@@ -27,7 +27,8 @@ import RichTextInput from 'aor-rich-text-input-with-image-handler';
 const PostTitle = ({ record }) => {
     return <span>Post {record ? `"${record.title}"` : ''}</span>;
 };
-const uploadResourceAPI = "http://restful.demo/api/v1/" + "resources"
+const uploadResourceAPI = "http://your.domain/api/v1/" + "resources"
+
 export const PostEdit = (props) => (
     <Edit title={<PostTitle />} {...props}>
         <DisabledInput label="Id" source="id" />
