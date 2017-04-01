@@ -1,6 +1,6 @@
 {
   "name": "aor-rich-text-input-with-image-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A local REST client for admin-on-rest",
   "main": "lib/index.js",
   "scripts": {
