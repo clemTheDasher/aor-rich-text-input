@@ -1,6 +1,6 @@
 {
   "name": "aor-rich-text-input-with-image-handler",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "A local REST client for admin-on-rest",
   "main": "lib/index.js",
   "scripts": {
@@ -17,14 +17,15 @@
     "richtext",
     "html",
     "wysiwyg",
-    "editor"
+    "editor",
+    "image upload"
   ],
   "author": "François Zaninotto, ClemTheDasher",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marmelab/aor-rich-text-input/issues"
+    "url": "https://github.com/marmelab/aor-rich-text-input-with-image-handler/issues"
   },
-  "homepage": "https://github.com/marmelab/aor-rich-text-input#readme",
+  "homepage": "https://github.com/marmelab/aor-rich-text-input-with-image-handler#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-plugin-add-module-exports": "^0.2.1",
